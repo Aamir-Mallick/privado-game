@@ -1,0 +1,55 @@
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+.container {
+	width: 300px;
+	margin: 10px auto;
+	height: 100px;
+	
+}
+
+.main {
+	width: 600px;
+	height: 400px;
+	border: 1px solid black;
+	margin: 50px auto;
+	position: relative;
+
+}
+
+
+.childOne {
+	width: 100px;
+	height: 100px;
+	border: 1px solid green;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background-color: green;
+
+}
+.childOne:hover {
+	background-color: #107707;
+	cursor: pointer;
+}
+
+.childTwo{
+	width: 100px;
+	height: 100px;
+	border: 1px solid blue;
+	position: absolute;
+	top: 0px;
+	left: 500px;
+	background-color: blue;
+}
+
+.childTwo:hover {
+	background-color: #1B49D8;
+	cursor: pointer;
+}
+
+
+
+
